@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif
+    
+}
+body{
+    background-color: aliceblue;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.home-link{
+    width: 100px;
+}
+p{
+    color: #6432a8;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.div1{
+   
+    border: 1.5px solid #6432a8;;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+   
+    flex-wrap: wrap;
+   
+}
+.box{
+    height: 400px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-top: 0px;
+   
+    /* margin-left: 100px; */
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+}
+.fa-solid{
+    color: white;
+    background-color: #6432a8;;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+   
+}
+.images{
+    height: 400px;
+    width:400px ;
+}
+.text1{
+    color: black;
+    font-size: 20px;
+}
+.info{
+   
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.name{
+    color: #6432a8;
+}
