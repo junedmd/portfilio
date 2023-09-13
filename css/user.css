@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif
+}
+body{
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.id{
+    font-size: 35px;
+    color: #6432a8;
+    display: block;
+    text-align: center;
+   
+}
+.heading{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-solid{
+    background-color: white;
+    padding: 10px;
+    color: #6432a8;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+ padding: 10px;
+}
+.info{
+    width: 800px;
+    
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.point{
+    font-size: 22px;
+    color: brown;
+    
+}
+.detail{
+    font-size: 26px;
+    color: #6432a8;
+}
+H2{
+    text-align: center;
+    color: #6432a8;
+}
+.skill-img{
+    height: 250px;
+    width: 250px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.skill{
+    margin-top: 20px;
+}
+@media screen and (max-width:700px){
+.id{
+    font-size: 25px;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.point{
+    font-size: 15px;
+    color: brown;
+}
+.detail{
+    font-size: 20px;
+    color: #6432a8;
+}
+
+    
+}

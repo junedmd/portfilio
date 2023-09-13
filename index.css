@@ -102,13 +102,43 @@ p{
     display: flex;
     flex-direction: column;
     margin-top: 30%;
-    margin-left: 40%;
+    margin-left: 5%;
 }
+.id{
+    color:aliceblue
+}
+/* .navbar{
+    background-color:#6432a8;
+    flex-direction: row;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    display: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul li{
+  list-style: none;
+  margin-top: 10px;
+ 
+}
+ul li a{
+ text-decoration: none;
+ color: aliceblue;
+ margin-left: 50px;
+
+} */
+
 
 @media (max-width: 768px) {
    .sidebar{
-   width: 50px;
+   display: none;
    }
+ 
+
    .fa-solid{
    margin-top: 50%;
    }
@@ -132,7 +162,7 @@ p{
 
     .seconddiv {
         width: 100%;
-        padding: 30px;
+        padding: 10px;
         display: flex;
         align-items: center;
     }
