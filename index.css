@@ -3,6 +3,10 @@
     padding: 0px;
     font-family: 'Noto Sans', sans-serif
 }
+.maindivision{
+    height: 100vh;
+
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -102,35 +106,30 @@ p{
     display: flex;
     flex-direction: column;
     margin-top: 30%;
-    margin-left: 5%;
+    margin-left:35%;
 }
 .id{
     color:aliceblue
 }
-/* .navbar{
-    background-color:#6432a8;
+ .navbar{
+    background-color: #6432a8;;
     flex-direction: row;
     display: flex;
     height: 100px;
     width: 100%;
-    display: none;
-}
-ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
-ul li{
-  list-style: none;
-  margin-top: 10px;
- 
-}
-ul li a{
- text-decoration: none;
- color: aliceblue;
- margin-left: 50px;
 
-} */
+.nav-links{
+    margin-top: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 
 @media (max-width: 768px) {
