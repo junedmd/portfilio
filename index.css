@@ -32,13 +32,13 @@
 }
 .firstdiv{
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: end;
 }
 .seconddiv{
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
    
 }
